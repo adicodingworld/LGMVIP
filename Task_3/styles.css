@@ -1,0 +1,61 @@
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 80px;
+  background-color: #8865ff; /* Deep Lilac Color */
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  grid-column: 1 / span 2;
+  margin: 0px;
+  padding-top: 23px;
+  padding-bottom: 23px;
+  background-color: black;
+  color: white;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+button {
+  padding: 8px 15px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#submittedData {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  grid-column: 2;
+  height:80%;
+  background-color: #8865ff; /* Deep Lilac Color */
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
